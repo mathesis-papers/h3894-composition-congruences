@@ -1,0 +1,224 @@
+{
+  "posing_sources": [
+    {
+      "url": "https://oeis.org/A389474",
+      "entry_revision": 11,
+      "locator": "FORMULA (3), (4)",
+      "author": "Paul D. Hanna",
+      "author_date": "2025-10-24",
+      "verbatim_conjecture_clauses": [
+        "(3) [x^n] A(x)^2 == 0 (mod 9) for n > 3 (conjecture).",
+        "(4) [x^n] A(x)^(3*k) - A(x^3)^k == 0 (mod 3) for n >= 1 and k >= 1 (conjecture)."
+      ]
+    },
+    {
+      "url": "https://oeis.org/A389475",
+      "entry_revision": 8,
+      "locator": "FORMULA (4.a), (4.b)",
+      "author": "Paul D. Hanna",
+      "author_date": "2025-10-26",
+      "verbatim_conjecture_clauses": [
+        "(4.a) A(x)^3 == A(x^3) (mod 3) (conjecture).",
+        "(4.b) A(x)^2 == x^2 + 2*A(x^3) (mod 3) (conjecture)."
+      ]
+    },
+    {
+      "url": "https://oeis.org/A389472",
+      "entry_revision": 7,
+      "locator": "COMMENTS: odd-index parity and a(3n-1) modulo three, n>1",
+      "author": "Paul D. Hanna",
+      "author_date": "2025-10-15",
+      "verbatim_conjecture_clauses": [
+        "Conjecture: a(2*n-1) = 0 (mod 2) for n > 1.",
+        "Conjecture: a(3*n-1) = 0 (mod 3) for n > 1."
+      ]
+    }
+  ],
+  "coverage": {
+    "written_proofs": [
+      "Existence, uniqueness and integrality of both normalized rational composition series",
+      "A389474 square congruence modulo nine and even powers for all nonnegative exponents",
+      "A389474 power congruence modulo three and both A389475 conjectures",
+      "Both A389472 residue-class conjectures with the required seed",
+      "Reversion formulas for the three entries and the iterated A389472 identity",
+      "Explicit coefficients excluding the immediately stronger moduli",
+      "A350432 product, defining equation, reversion and product-factor recurrence",
+      "Every rational-seed solution C_s=x+sD^2; both congruences for every integer seed",
+      "Exact radius (sqrt(5)-1)/2 for A350432 and every nonzero-seed A389472 solution",
+      "A273095 integral normalized existence, uniqueness, reversion and all iterated identities"
+    ],
+    "lean_declarations": [
+      {
+        "file": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean",
+        "declarations": [
+          "D5.S1.Recurrence.Invariants.HannaCompositionSquareModNine.result",
+          "D5.S1.Recurrence.Invariants.HannaCompositionSquareModNine.FormulaFour.resultFour"
+        ],
+        "scope": "The A389474 conjectures, including existence and all normalized rational solutions",
+        "declaration_scopes": {
+          "result": "Existence of a normalized rational solution and 9 times an integer for every coefficient [x^n]A^2 of every normalized rational solution when n>3.",
+          "FormulaFour.resultFour": "Existence and integer multiples of three for [x^n](A^(3k)-A(x^3)^k), for every normalized rational solution and all natural n,k>=1."
+        }
+      },
+      {
+        "file": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaTripleSquareFrobeniusModThree.lean",
+        "declarations": [
+          "D5.S1.Recurrence.Invariants.HannaTripleSquareFrobeniusModThree.result",
+          "D5.S1.Recurrence.Invariants.HannaTripleSquareFrobeniusModThree.FormulaFourB.resultFourB",
+          "D5.S1.Recurrence.Invariants.HannaTripleSquareFrobeniusModThree.integral_frobenius"
+        ],
+        "scope": "Both A389475 conjectures and the general integral-series Frobenius congruence",
+        "declaration_scopes": {
+          "result": "Existence and integer multiples of three for every coefficient of B^3-B(x^3), for every normalized rational solution; n includes zero.",
+          "FormulaFourB.resultFourB": "Existence and integer multiples of three for every coefficient of B^2-x^2-2B(x^3), for every normalized rational solution; n includes zero.",
+          "integral_frobenius": "3 divides [x^n](f^(3k)-f(x^3)^k) for every integral series f and all natural n,k, including zero."
+        }
+      },
+      {
+        "file": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Parity/SquareCubeSubstitutionThreeIndexModThree.lean",
+        "declarations": [
+          "D5.S1.Recurrence.Parity.SquareCubeSubstitutionThreeIndexModThree.result"
+        ],
+        "scope": "A389472 coefficient c_(3n-1) is divisible by three for n>1",
+        "declaration_scopes": {
+          "result": "3 divides a(3n-1) for every natural n>1, for the imported integer recurrence with a(0)=0 and a(1)=a(2)=1."
+        }
+      },
+      {
+        "file": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Parity/SquareCubeSubstitutionOddIndexParity.lean",
+        "declarations": [
+          "D5.S1.Recurrence.Parity.SquareCubeSubstitutionOddIndexParity.hanna_conjecture",
+          "D5.S1.Recurrence.Parity.SquareCubeSubstitutionOddIndexParity.generating_equation",
+          "D5.S1.Recurrence.Parity.SquareCubeSubstitutionOddIndexParity.generating_unique"
+        ],
+        "scope": "A389472 odd-index parity and identification with the integral seeded generating series",
+        "declaration_scopes": {
+          "hanna_conjecture": "2 divides a(2n-1) for every natural n>1, for the defined integer recurrence.",
+          "generating_equation": "The recurrence's series has coefficients c_0=0,c_1=c_2=1 and satisfies C(x^2+x^3)=x^2(C+1).",
+          "generating_unique": "Every integer series with those three seeds and that equation equals the recurrence's series."
+        }
+      }
+    ],
+    "finite_checks": {
+      "arithmetic": "exact integers",
+      "coefficient_degree": 96,
+      "nonlinear_equation_degree": 97,
+      "frobenius_exponents": [
+        0,
+        33
+      ],
+      "even_square_power_exponents": [
+        0,
+        49
+      ],
+      "source_terms_matched": {
+        "A389474": 24,
+        "A389475": 23,
+        "A389472": 41,
+        "A273095": 34,
+        "A350432": 43
+      },
+      "companion_identity_degree": 96,
+      "integer_seeds": [
+        -2,
+        0,
+        1,
+        3
+      ],
+      "A273095_iterations": [
+        0,
+        7
+      ],
+      "product_factors": 7
+    },
+    "not_covered": [
+      "A273095 asymptotic constants and asymptotic equivalence",
+      "Displayed decimal evaluations in A389474 and A389472"
+    ],
+    "lean_scope_boundary": "The linked declarations cover the six congruence conjectures. The product, radii, all-seed factorization, additional reversion formulas and A273095 identities have written proofs."
+  },
+  "source_items": [
+    {
+      "source": "https://oeis.org/A389474",
+      "locator": "FORMULA (3)",
+      "status": "Proved",
+      "proof": "Theorem 2",
+      "problem_id": "h3894-congruences"
+    },
+    {
+      "source": "https://oeis.org/A389474",
+      "locator": "FORMULA (4)",
+      "status": "Proved",
+      "proof": "Theorem 4",
+      "problem_id": "h3894-a389474-formula-four"
+    },
+    {
+      "source": "https://oeis.org/A389475",
+      "locator": "FORMULA (4.a)",
+      "status": "Proved",
+      "proof": "Theorem 4",
+      "problem_id": "h3894-triple-square-frobenius-mod-three"
+    },
+    {
+      "source": "https://oeis.org/A389475",
+      "locator": "FORMULA (4.b)",
+      "status": "Proved",
+      "proof": "Theorem 4",
+      "problem_id": "h3894-a389475-formula-four-b"
+    },
+    {
+      "source": "https://oeis.org/A389472",
+      "locator": "COMMENTS second conjecture",
+      "status": "Proved",
+      "proof": "Theorem 5",
+      "problem_id": "h3894-square-cube-three-index"
+    },
+    {
+      "source": "https://oeis.org/A389472",
+      "locator": "COMMENTS first conjecture",
+      "status": "Proved",
+      "proof": "Theorem 5",
+      "problem_id": "oeis-a389472-square-cube-substitution-odd-index-parity"
+    },
+    {
+      "locator": "A389474 FORMULA (2) and reversion EXAMPLE",
+      "status": "Proved",
+      "proof": "Section 6"
+    },
+    {
+      "locator": "A389475 FORMULA (2), (3.a), (3.b)",
+      "status": "Proved",
+      "proof": "Theorem 4 consequences and Section 6"
+    },
+    {
+      "locator": "A389472 FORMULA (2), (3)",
+      "status": "Proved",
+      "proof": "Section 6"
+    },
+    {
+      "locator": "A389474 COMMENTS Catalan comparison",
+      "status": "Proved",
+      "proof": "Section 6"
+    },
+    {
+      "locator": "A389472 and A350432 COMMENTS radius",
+      "status": "Proved",
+      "proof": "Theorem 6"
+    },
+    {
+      "locator": "A350432 FORMULA (1), (2), (3) and generating-method recurrence",
+      "status": "Proved",
+      "proof": "Theorem 6 and Corollary 7"
+    },
+    {
+      "locator": "A273095 defining equation, FORMULA reversion and iterated EXAMPLE",
+      "status": "Proved",
+      "proof": "Section 6"
+    },
+    {
+      "locator": "All rational seeds C_s=x+sD^2 and all integer-seed congruences",
+      "status": "not posed; proved",
+      "proof": "Theorem 6 and Corollary 7"
+    }
+  ]
+}

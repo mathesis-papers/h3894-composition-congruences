@@ -1,0 +1,28 @@
+{
+  "id": "h3894-composition-congruences",
+  "revision": 2,
+  "problem_ids": [
+    "h3894-congruences",
+    "h3894-a389474-formula-four",
+    "h3894-triple-square-frobenius-mod-three",
+    "h3894-a389475-formula-four-b",
+    "h3894-square-cube-three-index",
+    "oeis-a389472-square-cube-substitution-odd-index-parity"
+  ],
+  "topic": "Hanna's coefficient-congruence conjectures for OEIS A389474, A389475 and A389472",
+  "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+  "creators": [
+    {
+      "name": "Ma, Haobo",
+      "affiliation": "ChronoAI Pte Ltd, Singapore"
+    },
+    {
+      "name": "Zhang, Wenlin",
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"
+    }
+  ],
+  "abstract": "We prove Hanna's conjecture in OEIS A389474, FORMULA (3), and the companion conjectures in A389474, FORMULA (4), A389475, FORMULA (4.a), (4.b), and A389472, COMMENTS. For the first equation we establish A(x)^2 = x^2 + 2x^3 + 9Q(x), with Q in Z[[x]]. Integral coefficient constructions, Frobenius and binomial descent prove the six congruences. We also establish reversion identities and every even-power congruence modulo nine. If D is the A350432 series, every rational-seed solution of the A389472 equation is C_s=x+sD^2. Its product representation proves the stated convergence radius (sqrt(5)-1)/2 for D and every C_s with s nonzero.",
+  "summary": "Proofs of six conjectures, reversion and iterated identities, the companion product, all-seed factorization C_s=x+sD^2 and the exact convergence radius, with coefficient checks for five OEIS series.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+}

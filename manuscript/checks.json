@@ -1,0 +1,45 @@
+{
+  "arithmetic": "exact integers",
+  "checker_sha256": "4ee2b52250f45a1da9b6bea0f8ca15540081aa76f95daf665b64acf712129d2c",
+  "companion_checks": {
+    "analytic_radius": "Established by the written convergence and divergence proof.",
+    "identities_checked_through_degree": 96,
+    "integer_seeds": [
+      -2,
+      0,
+      1,
+      3
+    ],
+    "maximum_A273095_iteration": 7,
+    "product_factors": 7,
+    "reversion_series": 5
+  },
+  "coverage": "Finite coefficient identities and congruences supplement the all-index written proofs.",
+  "displayed_source_terms_matched": {
+    "A273095": 34,
+    "A350432": 43,
+    "A389472": 41,
+    "A389474": 24,
+    "A389475": 23
+  },
+  "frobenius_exponents": [
+    0,
+    33
+  ],
+  "linear_equation_checked_through_degree": 96,
+  "maximum_degree": 96,
+  "nonlinear_equations_checked_through_degree": 97,
+  "sharpness_witnesses": {
+    "A389472_coefficient_3": 2,
+    "A389472_coefficient_5": 6,
+    "A389474_square_degree_4": 9,
+    "A389475_cube_minus_substitution_degree_4": 3,
+    "A389475_square_defect_degree_4": 15
+  },
+  "source_terms_sha256": "aa2bb99d2e099e597909c70aefcd0b85c2c5f77b28b6bcad6cd626dae77a65f2",
+  "square_power_mod_9_exponents": [
+    0,
+    49
+  ],
+  "status": "PASS"
+}

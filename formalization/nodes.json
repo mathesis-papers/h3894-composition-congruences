@@ -1,0 +1,488 @@
+{
+  "nodes": [
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s1",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "Each of \\eqref{eq:A} and \\eqref{eq:B} has exactly one solution\n$x+O(x^2)$ in $\\Q[[x]]$. Both solutions belong to $\\Z[[x]]$,\nand both have coefficient of $x^2$ equal to one.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s10",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "The normalized series $P$ of A273095,\n$P(x^2)=P(x)^2-2P(x)^3$, exists uniquely in $\\Z[[x]]$.\nIf $J=P^{\\langle-1\\rangle}$ and $L(x)=x^2-2x^3$, then\n\\[\n P(J(x)^2)=L(x),\\qquad J(L(x))=J(x)^2,\\qquad\n P(J(x)^{2^r})=L^{\\circ r}(x)\\quad(r\\ge0).\n\\]\nThese include the FORMULA and iterated EXAMPLE identities of A273095\n\\cite{h273}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s11",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "For $K=x+K^2$, the unique normalized Catalan series,\n\\[\n x^2+2xK^2=K^2-K^4,\\qquad K(x^2+2xK^2)=K^2.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s2",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "For the normalized solution of \\eqref{eq:A},\n\\begin{equation}\n A^2-x^2-2x^3\\in9\\Z[[x]].\n\\end{equation}\nConsequently $9\\mid\\coef{n}{A^2}$ for every $n>3$,\nas conjectured in A389474, FORMULA (3).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s3",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "For every integer $k\\ge0$,\n\\[\n A^{2k}\\equiv x^{2k}(1+2x)^k\\pmod9.\n\\]\nThus $\\coef{n}{A^{2k}}$ is divisible by nine for\n$n<2k$ or $n>3k$, and for $0\\le j\\le k$ its coefficient\nin degree $2k+j$ is congruent to $2^j\\binom{k}{j}$ modulo nine.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s4",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "For every $k\\ge0$,\n\\begin{equation}\n A(x)^{3k}\\equiv A(x^3)^k\\pmod3.\n\\end{equation}\nThe normalized solution $B$ of \\eqref{eq:B} satisfies\n\\begin{equation}\n B(x)^3\\equiv B(x^3),\\qquad\n B(x)^2\\equiv x^2+2B(x^3)\\pmod3.\n\\end{equation}\nThese prove A389474, FORMULA (4), and A389475,\nFORMULA (4.a), (4.b).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s5",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "If $b_n=\\coef{n}{B}$,\nthen for $n\\ge1$ the odd coefficients satisfy\n$\\coef{2n+1}{B^2}=2\\coef{2n+1}{B^3}$; for $n\\ge2$,\n\\[\n \\coef{2n}{B^2}=3^n b_n+2\\coef{2n}{B^3}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s6",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s6",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "There is exactly one solution of \\eqref{eq:C} with\n$c_1=c_2=1$, $C(0)=0$. It lies in $\\Z[[x]]$ and satisfies\n\\[\n c_{2n-1}\\equiv0\\pmod2,\\qquad\n c_{3n-1}\\equiv0\\pmod3\\qquad(n>1).\n\\]\nThese are the two conjectures in A389472, COMMENTS.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s7",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s7",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "The normalized series $D=x+O(x^2)$ of A350432 exists uniquely and is\n\\[\n D(T(x))=xD(x),\\qquad\n D(x)=x\\prod_{j\\ge0}\\bigl(1+T^{\\circ j}(x)\\bigr).\n\\]\nIt has nonnegative integer coefficients. For every $s\\in\\Q$, the\nunique solution of \\eqref{eq:C} with $C(0)=0$, $c_1=1$, $c_2=s$ is\n\\begin{equation}\n C_s(x)=x+sD(x)^2.\n\\end{equation}\nIn particular $C=C_1$. Both $D$ and $C_s$, for $s\\ne0$, have radius of\nconvergence $\\rho=(\\sqrt5-1)/2$; $C_0=x$ is a polynomial.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s8",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "For every integer seed $s$, the series $C_s$ is integral and satisfies\n$2\\mid[x^{2n-1}]C_s$ and $3\\mid[x^{3n-1}]C_s$ for $n>1$.\nIf $V=D^{\\langle-1\\rangle}$, then\n$V(xD(x))=x^2+x^3$, as in A350432, FORMULA (2).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:h3894-composition-congruences:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "lineage": "collected:h3894-composition-congruences:s9",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[x^{#1}]\\,#2",
+        "\\leanroot": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "h3894-composition-congruences",
+      "scope": "in_scope",
+      "statement": "Let $R=A^{\\langle-1\\rangle}$, $S=B^{\\langle-1\\rangle}$ and\n$W=C^{\\langle-1\\rangle}$. Then\n\\begin{align*}\n A(2x^2+R^2+2R^3)&=3x^2, & R(3x^2)&=2x^2+R^2+2R^3,\\\\\n B(3S^2)&=2S^2+x^2-2x^3, & C(W^2+W^3)&=(1+x)W^2.\n\\end{align*}\nThese are A389474 (2), A389475 (2), and A389472 (2),\nincluding the reversion identity in A389474 EXAMPLE.\nAlso A389472 (3) holds as the Laurent-series identity\n\\[\n C(x)=\\frac{C(x^4+2x^5+2x^6+3x^7+3x^8+x^9)}{(x^3+x^4)^2}\n       -\\frac{1+x^2}{x^2}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "h3894-composition-congruences"
+    }
+  ]
+}

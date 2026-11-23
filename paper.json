@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 98951,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "8930338ce7cb461c5cffdb0fc81de06f041a9dbc67c14c4a2f6f478f46d81885",
+      "sha256": "8930338ce7cb461c5cffdb0fc81de06f041a9dbc67c14c4a2f6f478f46d81885"
+    },
+    "source": {
+      "bytes": 19219,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "c88aa2b2345f4842d5b30141b4e8123be749039ff9d293d919ff231ca011bbd0",
+      "sha256": "c88aa2b2345f4842d5b30141b4e8123be749039ff9d293d919ff231ca011bbd0"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We prove Hanna's conjecture in OEIS A389474, FORMULA (3), and the companion conjectures in A389474, FORMULA (4), A389475, FORMULA (4.a), (4.b), and A389472, COMMENTS. For the first equation we establish A(x)^2 = x^2 + 2x^3 + 9Q(x), with Q in Z[[x]]. Integral coefficient constructions, Frobenius and binomial descent prove the six congruences. We also establish reversion identities and every even-power congruence modulo nine. If D is the A350432 series, every rational-seed solution of the A389472 equation is C_s=x+sD^2. Its product representation proves the stated convergence radius (sqrt(5)-1)/2 for D and every C_s with s nonzero.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 98951,
+      "sha256": "8930338ce7cb461c5cffdb0fc81de06f041a9dbc67c14c4a2f6f478f46d81885",
+      "url": "/api/v1/collected-papers/h3894-composition-congruences/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-23T01:01:41.753779204Z",
+    "record": "h3894-composition-congruences",
+    "repository_name": "h3894-composition-congruences",
+    "source": {
+      "bytes": 19219,
+      "sha256": "c88aa2b2345f4842d5b30141b4e8123be749039ff9d293d919ff231ca011bbd0",
+      "url": "/api/v1/collected-papers/h3894-composition-congruences/files/source?version=2"
+    },
+    "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-23T01:01:41.753779204Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "h3894-composition-congruences"
+  }
+}
