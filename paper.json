@@ -31,6 +31,7 @@
     "concept_doi": "10.5281/zenodo.24409051",
     "current_version": 2,
     "doi": "10.5281/zenodo.24409052",
+    "kind": "note",
     "lean_source": {
       "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
       "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
@@ -55,10 +56,12 @@
     "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
     "versions": [
       {
+        "changelog": null,
         "previous_version": null,
         "published_on": "2026-11-23T01:01:41.753779204Z",
         "revision": "2",
-        "version": 2
+        "version": 2,
+        "version_label": null
       }
     ],
     "work": "h3894-composition-congruences"
